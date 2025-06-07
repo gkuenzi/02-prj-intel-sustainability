@@ -22,7 +22,7 @@ header {
 }
 
 #headerLogo {
-  width: 150px;
+  width: 170px;
   height: auto;
 }
 
@@ -61,7 +61,7 @@ h2{
   left: 0; /* Start at the left */
   width: 100%; /* Cover the whole image */
   height: 100%; /* Cover the whole image */
-  background: rgba(37, 125, 192, 0.8); /* Semi-transparent background */
+  background: rgba(34, 112, 171, 0.8); /* Semi-transparent background */
   padding: 15px;
   color: #ffffff; /* White text */
   text-align: center; /* Center the text */
