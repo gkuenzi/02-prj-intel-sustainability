@@ -1,18 +1,24 @@
 body{
   background-color: rgb(243, 243, 243);
-  color: white;
+  color: rgb(0, 0, 0);
   margin:0;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 header {
   background-color: rgb(37, 125, 192);
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  
+  padding: 10px;
+  text-align: center;
+  height: 250px;
+  color: white;
+
 }
 
 #headerLogo {
   width: 150px;
   height: auto;
+}
+
+.headerItems {
+  padding: 12px;
 }
