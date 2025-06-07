@@ -5,6 +5,11 @@ body{
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+img {
+  max-width: 95%;   /* Image will not be wider than its container */
+  height: auto;      /* Keeps the image's original shape */
+}
+
 header {
   background-color: rgb(37, 125, 192);
   padding: 10px;
@@ -21,4 +26,35 @@ header {
 
 .headerItems {
   padding: 12px;
+}
+
+section {
+  padding: 15px;
+}
+
+h2{
+  color: rgb(0, 162, 255) !important;
+}
+
+.img-hover-container {
+  position: relative; /* Needed for positioning the text */
+  display: inline-block; /* Keeps the container the size of the image */
+}
+
+.img-description {
+  display: none; /* Hide the text at first */
+  position: absolute; /* Position over the image */
+  bottom: 0; /* Start at the bottom */
+  left: 0; /* Start at the left */
+  width: 95%; /* Cover the whole image */
+  height: 100%; /* Cover the whole image */
+  background: rgba(37, 125, 192, 0.8); /* Semi-transparent background */
+  padding-top: 15px;
+  color: #ffffff; /* White text */
+  text-align: center; /* Center the text */
+  box-sizing: border-box;
+}
+
+.img-hover-container:hover .img-description {
+  display: block;
 }
