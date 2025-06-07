@@ -3,11 +3,14 @@ body{
   color: rgb(0, 0, 0);
   margin:0;
   font-family: 'Roboto', Arial, sans-serif;
+  text-align: center;
+
 }
 
 img {
-  max-width: 95%;   /* Image will not be wider than its container */
-  height: auto;      /* Keeps the image's original shape */
+  height: 150px;
+  width: 375px;
+  object-fit: cover;
 }
 
 header {
@@ -16,7 +19,6 @@ header {
   text-align: center;
   height: 250px;
   color: white;
-
 }
 
 #headerLogo {
@@ -28,6 +30,11 @@ header {
   padding: 12px;
 }
 
+#Scroll-and-hover {
+  text-align: center;
+  padding-top: 15px;
+}
+
 section {
   padding: 15px;
 }
@@ -36,9 +43,15 @@ h2{
   color: rgb(0, 162, 255) !important;
 }
 
+.card-padding {
+  padding-bottom: 30px;   /* Space inside the card */
+  box-sizing: border-box; /* Makes sure padding doesn't break the layout */
+}
+
 .img-hover-container {
   position: relative; /* Needed for positioning the text */
   display: inline-block; /* Keeps the container the size of the image */
+  border: 1px solid #000;
 }
 
 .img-description {
@@ -46,10 +59,10 @@ h2{
   position: absolute; /* Position over the image */
   bottom: 0; /* Start at the bottom */
   left: 0; /* Start at the left */
-  width: 95%; /* Cover the whole image */
+  width: 100%; /* Cover the whole image */
   height: 100%; /* Cover the whole image */
   background: rgba(37, 125, 192, 0.8); /* Semi-transparent background */
-  padding-top: 15px;
+  padding: 15px;
   color: #ffffff; /* White text */
   text-align: center; /* Center the text */
   box-sizing: border-box;
