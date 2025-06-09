@@ -8,13 +8,13 @@ body{
 }
 
 img {
-  height: 150px;
-  width: 375px;
+  height: 175px;
+  width: 350px;
   object-fit: cover;
 }
 
 header {
-  background-color: rgb(37, 125, 192);
+  background-color: rgb(36, 120, 184);
   padding: 10px;
   text-align: center;
   height: 250px;
@@ -33,6 +33,7 @@ header {
 #Scroll-and-hover {
   text-align: center;
   padding-top: 15px;
+  
 }
 
 section {
@@ -70,4 +71,10 @@ h2{
 
 .img-hover-container:hover .img-description {
   display: block;
+}
+
+#link-to-intel {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
