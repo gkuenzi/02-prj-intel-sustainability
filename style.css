@@ -86,14 +86,15 @@ footer {
   padding: 10px;
   padding-left: 15px;
 }
+h3 {
+  padding: 10px;
+}
 
 #newsletter {
-  border:rgb(255, 255, 255) 3px solid;
   margin-top: 10px;
   padding: 15px; 
   border-radius: 10px;
-  background-color: rgb(31, 105, 162);
-  width: 45%;
+  width: 50%;
 }
 
 .d-inline-block {
@@ -112,6 +113,7 @@ footer {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 15px;
   margin-left: 2px;
+ 
   padding: 5px;
   width: 20vw;
 }
@@ -134,7 +136,25 @@ input::placeholder {
 }
 
 #contactInfo {
-  text-align: center;
-  color:white;
-  width: 40%;
+  justify-content: center;
+  align-items: left;
+}
+
+#footerLogo {
+  object-fit: cover;
+  height: 75px;
+  width: 150px;
+}
+
+.infoLinks {
+  color: white;
+}
+
+.vertical-line {
+  display: inline-block;    /* Keeps the line on the same line as text */
+  width: 1px;               /* Thickness of the line */
+  height: 20px;             /* Height of the line */
+  background-color: #ffffff;   /* Color of the line */
+  margin: 0 10px;           /* Space on left and right of the line */
+  vertical-align: middle;   /* Aligns the line with the text */
 }
